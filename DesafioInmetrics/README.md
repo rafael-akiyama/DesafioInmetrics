@@ -43,8 +43,8 @@ Foi feito buscas dos elementos utilizando id, name, CSS Selector e xpath, para f
 
 ### ***Melhorias a se Fazer***
 
-1.Ao Efetuar o cadastro de usuario, não retorna nenhuma mensagem de confirmação, somente retorna a página para fazer o login, poderia aparecer uma mensagem de confirmação que o usuário foi cadastrado.
+1. Ao Efetuar o cadastro de usuario, não retorna nenhuma mensagem de confirmação, somente retorna a página para fazer o login, poderia aparecer uma mensagem de confirmação que o usuário foi cadastrado.
 
-2.Quando um funcionário é cadastrado, a mensagem de confirmação que aparece é que um usuário foi cadastrado, poderia aparecer a mensagem que um funcionário foi cadastrado
+2. Quando um funcionário é cadastrado, a mensagem de confirmação que aparece é que um usuário foi cadastrado, poderia aparecer a mensagem que um funcionário foi cadastrado
 
 
