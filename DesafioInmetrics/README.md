@@ -43,13 +43,21 @@ Após a execução será criado um diretório na raíz do projeto de nome screen
  
 ### ***Pontos a serem Considerados***
 
-Foi feito buscas dos elementos utilizando id, name, CSS Selector e xpath, para ficar claro que eu consigo sair do outro lado, sei que a melhor forma é por id ou name.
+Sei que a melhor forma de lidar com um elemento na automação é através de id ou name, porém nesta automação foi utilizado outras formas como CSS Selector e Xpath para demonstrar conhecimento variado do uso de captura de elementos.
 <p> <br />
  
 ### ***Melhorias a se Fazer***
 
 1. Ao Efetuar o cadastro de usuario, não retorna nenhuma mensagem de confirmação, somente retorna a página para fazer o login, poderia aparecer uma mensagem de confirmação que o usuário foi cadastrado.
 
-2. Quando um funcionário é cadastrado, a mensagem de confirmação que aparece é que um usuário foi cadastrado, poderia aparecer a mensagem que um funcionário foi cadastrado
+2. Quando um funcionário é cadastrado, a mensagem de confirmação que aparece é que um usuário foi cadastrado, poderia aparecer a mensagem que um funcionário foi cadastrado.
+
+3. Na pesquisa de funcionários, não é possível filtrar a busca por tipo de contratação.
+
+4. Quando entra no cadastro dos funcionários, aparece um layout, e assim que a página carrega a opção de busca, o layout altera e some informações como salário por exemplo.
+
+5. Quando entra no modo edição de funcionário e não faz nenhuma alteração, depois que clica em ok, aparece uma mensagem de confirmação que foi alterado, mesmo não sendo alterado nada.
+
+6. Quando um funcionário é exluido, o registro exclui na hora, não pergunta se realmente quer excluir, pois se a pessoa clica sem querer, ele exclui o registro direto, isso poderia ser alterado para aparecer a confirmação se realmente quer excluir o registro
 
 
