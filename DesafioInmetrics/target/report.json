@@ -1,0 +1,546 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 27938682600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que um usuario esteja logado na plataforma inmrobo",
+            "match": {
+              "location": "CRUDFuncionarioSteps.queUmUsuarioEstejaLogadoNaPlataformaInmrobo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 295673800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Util.takeReport(Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Cadastrar funcionario",
+        "description": "",
+        "id": "crud-de-funcionario;cadastrar-funcionario",
+        "after": [
+          {
+            "result": {
+              "duration": 1686751200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Util.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18153986400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "cadastrar um novo funcionario",
+            "match": {
+              "location": "CRUDFuncionarioSteps.cadastrarUmNovoFuncionario()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 40811500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "sera exibida uma mensagem de cadastrado com sucesso",
+            "match": {
+              "location": "CRUDFuncionarioSteps.seraExibidaUmaMensagemDeCadastradoComSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@funcionario"
+          },
+          {
+            "line": 7,
+            "name": "@cadastrar"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 24969899000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que um usuario esteja logado na plataforma inmrobo",
+            "match": {
+              "location": "CRUDFuncionarioSteps.queUmUsuarioEstejaLogadoNaPlataformaInmrobo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 402400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Util.takeReport(Scenario)"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Pesquisar funcionario",
+        "description": "",
+        "id": "crud-de-funcionario;pesquisar-funcionario",
+        "after": [
+          {
+            "result": {
+              "duration": 1238184500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Util.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 384701700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "pesquisar um funcionario existente",
+            "match": {
+              "location": "CRUDFuncionarioSteps.pesquisarUmFuncionarioExistente()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 87908500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "sera exibido o registro do funcionario",
+            "match": {
+              "location": "CRUDFuncionarioSteps.seraExibidoORegistroDoFuncionario()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@funcionario"
+          },
+          {
+            "line": 12,
+            "name": "@pesquisar"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 26744132500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que um usuario esteja logado na plataforma inmrobo",
+            "match": {
+              "location": "CRUDFuncionarioSteps.queUmUsuarioEstejaLogadoNaPlataformaInmrobo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 248500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Util.takeReport(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Editar funcionario",
+        "description": "",
+        "id": "crud-de-funcionario;editar-funcionario",
+        "after": [
+          {
+            "result": {
+              "duration": 1252912900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Util.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18089309100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "editar um funcionario",
+            "match": {
+              "location": "CRUDFuncionarioSteps.editarUmFuncionario()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 43939800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "sera exibida uma mensagem de atualizacao com sucesso",
+            "match": {
+              "location": "CRUDFuncionarioSteps.seraExibidaUmaMensagemDeAtualizacaoComSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 17,
+            "name": "@funcionario"
+          },
+          {
+            "line": 17,
+            "name": "@editar"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 25656748000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "que um usuario esteja logado na plataforma inmrobo",
+            "match": {
+              "location": "CRUDFuncionarioSteps.queUmUsuarioEstejaLogadoNaPlataformaInmrobo()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 358000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Util.takeReport(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Excluir funcionario",
+        "description": "",
+        "id": "crud-de-funcionario;excluir-funcionario",
+        "after": [
+          {
+            "result": {
+              "duration": 1262426300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Util.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15672928300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "excluir um funcionario",
+            "match": {
+              "location": "CRUDFuncionarioSteps.excluirUmFuncionario()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 39765900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "sera exibida uma mensagem de excluido com sucesso",
+            "match": {
+              "location": "CRUDFuncionarioSteps.seraExibidaUmaMensagemDeExcluidoComSucesso()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@funcionario"
+          },
+          {
+            "line": 22,
+            "name": "@excluir"
+          }
+        ]
+      }
+    ],
+    "name": "CRUD de Funcionario",
+    "description": "",
+    "id": "crud-de-funcionario",
+    "keyword": "Funcionalidade",
+    "uri": "CRUDFuncionario.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 232700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Util.takeReport(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "efetuar cadastro de usuario",
+        "description": "",
+        "id": "cadastro-de-usuario;efetuar-cadastro-de-usuario",
+        "after": [
+          {
+            "result": {
+              "duration": 1756953200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Util.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8322043400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que um usuario acesse a plataforma inmrobo",
+            "match": {
+              "location": "CadastrarUsuarioSteps.queUmUsuarioAcesseAPlataformaInmrobo()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 4005862900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "realizar o cadastro de um novo usuario",
+            "match": {
+              "location": "CadastrarUsuarioSteps.realizarOCadastroDeUmNovoUsuario()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 45250400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "um novo usuario sera cadastrado",
+            "match": {
+              "location": "CadastrarUsuarioSteps.umNovoUsuarioSeraCadastrado()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@usuario"
+          }
+        ]
+      }
+    ],
+    "name": "Cadastro de usuario",
+    "description": "",
+    "id": "cadastro-de-usuario",
+    "keyword": "Funcionalidade",
+    "uri": "CadastrarUsuario.feature"
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 391500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Util.takeReport(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "efetuar login",
+        "description": "",
+        "id": "logar;efetuar-login",
+        "after": [
+          {
+            "result": {
+              "duration": 1362429500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Util.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8233943600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "que um usuario acesse a plataforma inmrobo",
+            "match": {
+              "location": "CadastrarUsuarioSteps.queUmUsuarioAcesseAPlataformaInmrobo()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 17495952900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "realizar o login de um usuario cadastrado",
+            "match": {
+              "location": "LogarSteps.realizarOLoginDeUmUsuarioCadastrado()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 50731200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "sera exibida a pagina de registro de funcionarios",
+            "match": {
+              "location": "LogarSteps.seraExibidaAPaginaDeRegistroDeFuncionarios()"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@logar"
+          }
+        ]
+      }
+    ],
+    "name": "Logar",
+    "description": "",
+    "id": "logar",
+    "keyword": "Funcionalidade",
+    "uri": "Logar.feature"
+  }
+]
