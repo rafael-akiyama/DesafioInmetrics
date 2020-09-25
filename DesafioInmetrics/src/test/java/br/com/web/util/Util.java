@@ -58,12 +58,24 @@ public class Util {
 	@Before
 	public static void takeReport(Scenario scenario) {
 		if (extentReport == null) {
+			criarDiretorioMacro();
 			extentReport = new ExtentReports();
 			htmlReporter = new ExtentHtmlReporter("./report/htmlReporter.html");
 			extentReport.attachReporter(htmlReporter);
 		}
 		extentTest = extentReport.createTest(scenario.getId());
 	}
+	
+	public static void criarDiretorioMacro() {
+        try {
+            File diretorio = new File("./report");
+            diretorio.mkdir();
+            System.out.println("Diretorio report criado com sucesso na pasta raiz do projeto");
+        } catch (Exception ex) {
+        	System.out.println("Erro ao criar o diretorio report na pasta raiz do projeto");
+            System.out.println(ex);
+        }
+    }
 
 	@After
 	public static void tearDown(Scenario scenario) {
